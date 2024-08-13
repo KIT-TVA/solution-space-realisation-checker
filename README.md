@@ -7,6 +7,9 @@
 - `results` consists of the result data of the performance evaluation for deciding the conistency of the BCS case study (`timings_20240416.csv`)
 
 ## Re-Run Performance Evaluation
+
+As a prerequisit, the pip3 package `z3-solver` must be installed first.
+
 1. Start terminal in the directory `tools`.
 2. Start performance analysis with `python3 ./main.py 1000` (`1000` is a command line parameter to define the number of runs the evaluation will do)
 3. After the execution ends, a file `timings.csv` is written to the directory `results` comprising all information.
