@@ -5,6 +5,7 @@
     - resource type definitions (`resource_types.csv`)
     - resource provisionings (`resource_provisionings.csv`)
 - `results` consists of the result data of the performance evaluation for deciding the conistency of the BCS case study (`timings_20240416.csv`)
+- `ground_truth` consists of a table with all valid configurations (in rows), their features and realisability (column `realisable`)
 
 ## Re-Run Performance Evaluation
 
